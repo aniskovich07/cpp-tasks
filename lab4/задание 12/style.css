@@ -1,0 +1,49 @@
+div
+{
+background-color: blueviolet;
+color: white;
+height: 300px;
+width: 300px;
+margin: 10px;
+padding: 10px;
+}
+main
+{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-between;
+}
+@media  (min-width: 1000px) {
+div
+{
+background-color: blueviolet;
+color: white;
+height: 300px;
+width: 300px;
+margin: 10px;
+padding: 10px;
+}
+}
+@media  (max-width: 1000px) and (min-height: 820px) {
+div
+{
+background-color: blueviolet;
+color: white;
+height: 300px;
+width: 300px;
+margin: 10px;
+padding: 10px;
+}
+}
+@media (max-height: 820px) {
+div
+{
+background-color: blueviolet;
+color: white;
+height: 300px;
+width: 300px;
+margin: 10px;
+padding: 10px;
+}
+}

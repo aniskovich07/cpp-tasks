@@ -1,0 +1,37 @@
+.line {
+	background-color: #444;
+	text-align: center;
+	color: #fff;
+	width: 170px;
+	height: 30px;
+	padding-top: 10px;
+    list-style: none;
+}
+.menu {
+	display: flex;
+}
+.menu_2 {
+	display: none;
+	height: 80px;
+	padding: 0px;
+	background-color: #444;
+	text-align: center;
+}
+#list:hover .menu_2 {
+	display: block;
+	background-color: #444;
+}
+.menu_2 li {
+	padding-top: 5px;
+	margin-top: 10px;
+	height: 30px;
+	width: 170px;
+	
+}
+li:hover {
+	background-color: #333;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}

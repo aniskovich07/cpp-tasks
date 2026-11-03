@@ -1,0 +1,25 @@
+body
+{
+	display: flex;
+	border: 2px solid blue;
+	width: 300px;
+}
+li {
+	list-style: none;
+	display: inline-block;
+	
+}
+li:not(:last-child)::after {
+	content: '>';
+  padding: 1px;
+}
+a {
+	text-decoration: none;
+	color: #0b56ea;
+}
+a:hover {
+	text-decoration: underline;
+}
+span {
+	color: #333;
+}

@@ -1,0 +1,29 @@
+p
+{
+    margin-top: 10px;
+}
+.p1
+{
+   text-shadow: 10px 11px grey; 
+}
+.p2
+{
+   text-shadow: 10px 11px 3px grey;  
+}
+.p3
+{
+   text-shadow: 5px 5px 2px red, -5px -5px 2px blue;
+}
+.p4
+{
+  text-shadow: -0.1px -0.1px #000, 0 0.1px 0 #444;
+}
+.p5 {
+	color: #e1d7bc;
+	text-shadow: -0.3px -0.3px #a49f8f, -0.4px -0.4px #848074, -0.1px -0.1px #000;
+}
+.p6 {
+	color: #e1d7bc;
+	text-shadow: 0.3px 0.3px black, -0.3px -0.3px black;
+}
+

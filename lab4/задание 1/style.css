@@ -1,0 +1,26 @@
+.both
+{
+    resize: both;
+}
+.none
+{
+    resize: none;
+}
+.horizontal
+{
+    resize: horizontal;
+}
+.vertical
+{
+    resize: vertical;
+}
+body
+{
+text-align: center;
+width: 10%;
+}
+textarea
+{
+    width: 120px;
+    height: 70px;
+}

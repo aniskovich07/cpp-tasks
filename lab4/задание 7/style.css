@@ -1,0 +1,20 @@
+div
+{
+    margin-bottom: 100px;
+    border: 1px black solid;
+    height: 200px;
+	width: 200px;
+    margin-left: 50px;
+}
+.div1
+{
+    box-shadow: 30px 30px 20px gray;
+}
+.div2
+{
+    box-shadow: 70px 70px 40px gray, -70px -70px 40px grey;
+}
+.div3
+{
+    box-shadow: inset 5px 5px 10px  gray;
+}

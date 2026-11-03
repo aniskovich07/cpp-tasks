@@ -1,0 +1,136 @@
+main {
+	border-radius: 50%;
+	width: 500px;
+	height: 500px;
+	background-color: #cfdde6;
+	position: absolute;
+	z-index: 0;
+}
+.house {
+	position: absolute;
+	background-color: white;
+	width: 300px;
+	height: 80px;
+	left: 100px;
+	bottom: 130px;
+	z-index: 1;
+}
+.house::before {
+	position: absolute;
+	content: '';
+	border-bottom: 30px solid #d56851;
+	border-right: 30px solid transparent;
+	width: 250px;
+	top: -30px;
+	left: 20px;
+}
+.house::after {
+	position: absolute;
+	content: '';
+	border-bottom: 50px solid #d56851;
+	width: 190px;
+	bottom: 110px;
+	left: 80px;
+}
+.tower {
+	position: absolute;
+	background-color: white;
+	width: 80px;
+	height: 190px;
+	left: 100px;
+	bottom: 150px;
+}
+.tower::after {
+	position: absolute;
+	content: '';
+	border-bottom: 40px solid #6d6d6d;
+	width: 30px;
+	left: 25px;
+	top: 20px;
+}
+.tower::before {
+	position: absolute;
+	content: '';
+	border-bottom: 50px solid #d56851;
+	border-right: 40px solid transparent;
+	border-left: 40px solid transparent;
+	top: -50px;
+	z-index: 2;
+}
+ul {
+	list-style: none;
+}
+li {
+	background-color: #6d6d6d;
+	display: inline-block;
+	position: relative;
+	width: 30px;
+	height: 40px;
+	margin: 3px;
+	top: 290px;
+	left: 140px;
+	z-index: 3;
+}
+
+.cloud1 {
+	position: absolute;
+	background-color: white;
+	border-radius: 50%;
+	width: 60px;
+	height: 30px;
+}
+.cloud1::after {
+	content: '';
+	position: absolute;
+	background-color: white;
+	border-radius: 50%;
+	width: 40px;
+	height: 20px;
+	top: 10px;
+	left: 40px;
+}
+.cloud2 {
+	position: absolute;
+	background-color: white;
+	border-radius: 50%;
+	width: 50px;
+	height: 25px;
+	left: 60px;
+	top: 60px;
+}
+.cloud3 {
+	position: absolute;
+	background-color: white;
+	border-radius: 50%;
+	width: 60px;
+	height: 30px;
+	left: 170px;
+	top: 58px;
+}
+.cloud1::before {
+	content: '';
+	position: absolute;
+	background-color: white;
+	border-radius: 50%;
+	width: 40px;
+	height: 20px;
+	left: 150px;
+	top: 68px;
+}
+.clouds {
+	z-index: 0;
+	overflow: hidden;
+    position: absolute;
+	width: 230px;
+	height: 90px;
+    left: 200px;
+	animation: clouds 7s linear infinite;
+}
+@keyframes clouds {
+	from {
+		left: -250px;
+	}
+	to {
+		left: 500px;
+	}
+}

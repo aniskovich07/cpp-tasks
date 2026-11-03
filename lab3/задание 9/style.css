@@ -1,0 +1,112 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+nav li
+{
+	background-color: rgb(242, 119, 172);
+	display: inline-block;
+	list-style: none;
+	text-align: center;
+	width: 90px;
+	height: 35px;
+	padding-top: 15px;
+}
+a
+{
+	text-decoration: none;
+    color: aliceblue;
+}
+nav li:hover
+{
+	background-color: rgb(247, 61, 126);
+}
+nav{
+	background-color: rgb(242, 119, 172);
+}
+body
+{
+	background-color: gainsboro;
+}
+main
+{
+	display: flex;
+	background-color: white;
+	height: 200%;
+	padding-top: 40px;
+}
+.first
+{
+	float: left;
+	display: justify;
+	width: 20%;
+	margin: 20px;
+}
+.second
+{
+	float: right;
+	text-align: justify;
+	width: 20%;
+	margin: 20px;
+}
+article
+{
+	float: center;
+	display: justify;
+	width: 60%;
+	margin: 20px;
+}
+img
+{
+	margin-top: 20px;
+}
+.img_1
+{
+	width: 70%;
+}
+.img_2
+{
+	width: 70%;
+}
+.img_3 {
+	width: 80%;
+}
+.img_4 {
+	width: 80%;
+}
+h2
+{
+	margin-top: 20px;
+}
+p {
+	margin-top: 20px;
+}
+footer
+{
+	background-color: rgb(242, 119, 172);
+	width: 100%;
+	margin: 20px;
+	text-align: center;
+	display: block;
+}
+footer li
+{
+	display: inline-block;
+	list-style: none;
+	margin-top: 40px;
+	margin-right: 8px;
+	background-color:white;
+	width: 23%;
+	height: 300px;
+}
+cite
+{
+	color: white;
+	margin: 40px;
+	padding: 40px;
+
+}
+footer p
+{
+    margin: 30px;
+}

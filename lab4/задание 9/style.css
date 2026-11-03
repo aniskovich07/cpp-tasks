@@ -1,0 +1,42 @@
+img
+{
+    width: 180px;
+}
+.d1
+{
+    float: left;
+    width: 50%;
+}
+.d2
+{
+    float: right;
+    width: 50%;
+}
+.d1 .filter1
+{
+    filter: grayscale();
+}
+.d1 .filter2
+{
+    filter: saturate(50%);
+}
+.d1 .filter3
+{
+    filter: invert();
+}
+.d2 .filter1
+{
+    filter: sepia();
+}
+.d2 .filter2
+{
+    filter: hue-rotate(90deg);
+}
+.d2 .filter3
+{
+    filter: contrast(50%);
+}
+
+
+
+

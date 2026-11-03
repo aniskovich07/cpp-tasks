@@ -1,0 +1,27 @@
+body{
+   text-align: center;
+   width: 10%;
+}
+div
+{
+    width: 200px;
+    height: 200px;
+    border: solid 1px rgb(0, 0, 0);
+    margin-bottom: 40px;
+}
+.d1:hover
+{
+cursor: pointer;
+}
+.d2:hover
+{
+cursor: progress;
+}
+.d3:hover
+{
+cursor: wait;
+}
+.d4:hover
+{
+cursor: url(img/asteroid.png), pointer;
+}

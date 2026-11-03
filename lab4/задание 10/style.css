@@ -1,0 +1,9 @@
+
+article
+{
+    columns: 3 auto;
+}
+p
+{
+    text-align: justify;
+}

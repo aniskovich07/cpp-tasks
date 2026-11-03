@@ -1,0 +1,112 @@
+.block1,
+.block2,
+.block3,
+.block4
+{
+    height: 170px;
+    width: 400px;
+    display: flex;
+}
+.block5
+{
+    height: 500px;
+    width: 480px; 
+}
+.linear-gradient1
+{
+    height: 150px;
+    width: 160px;
+    background: linear-gradient(to top, white, yellow);
+    border: 1px black solid;
+}
+.linear-gradient2
+{
+    height: 150px;
+    width: 160px;
+    background: linear-gradient(to right, white, yellow);
+    border: 1px black solid;
+    margin-left: 10px;
+}
+.linear-gradient3
+{
+    height: 150px;
+    width: 160px;
+    background: linear-gradient(to left, white, yellow);
+    border: 1px black solid;
+    margin-left: 10px;
+}
+.linear-gradient4
+{
+    height: 150px;
+    width: 240px;
+    background: linear-gradient(to top, 
+    red 0%,
+    red 33.3%,
+    white 33.3%,
+     white 66.6%,
+     red 66.6%,
+      red 100%);
+    border: 1px black solid;
+}
+.linear-gradient5
+{
+    height: 150px;
+    width: 240px;
+    background: linear-gradient(to right, red, blue, white, red);
+    border: 1px black solid;
+    margin-left: 10px;
+}
+.radial-gradient1
+{
+    height: 150px;
+    width: 150px;
+    background: radial-gradient( rgb(166, 209, 240), blue);
+    border: 1px black solid;
+}
+.radial-gradient2
+{
+    height: 150px;
+    width: 240px;
+    background: radial-gradient( rgb(166, 209, 240), blue);
+    border: 1px black solid;
+    margin-left: 10px;
+}
+.radial-gradient3
+{
+    height: 150px;
+    width: 250px;
+    background: radial-gradient( circle farthest-corner at 50px 50px,  rgb(166, 209, 240), blue);
+    border: 1px black solid;
+}
+.radial-gradient4
+{
+    height: 150px;
+    width: 240px;
+    background: radial-gradient(circle, #333333 10% 5px, white 20%,  #008001 );
+    border: 1px black solid;
+    margin-left: 10px;
+}
+.repeating1
+{
+    height: 100px;
+    width: 200px;
+    border: 1px black solid;
+    background: repeating-linear-gradient(black 0% 3%, white 4% 7%);
+
+}
+.repeating2
+{
+    height: 50px;
+    width: 200px;
+    border: 1px black solid;
+    background: repeating-linear-gradient(45deg, red 0% 1%, white 2% 3%);
+
+}
+.repeating3
+{
+    height: 200px;
+    width: 200px;
+    border: 1px black solid;
+   background: repeating-radial-gradient(circle, #000000 0% 1%, #fff 1% 2%);
+    margin-top: 3px;
+}

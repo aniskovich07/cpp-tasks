@@ -1,0 +1,56 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+div
+{
+    width: 600px;
+    height: 400px;
+    background-color: url(bg.jpg);
+    position: relative;
+}
+img {
+	position: absolute;
+}
+.img2
+{
+    z-index: 1;
+    top: 82%;
+    right: 35px;
+}
+.img3
+{
+    z-index: 2;
+    top: 20%;
+    right: 120px;
+}
+.img4
+{
+    z-index: 3;
+    top: 25px;
+    left: 180px;
+}
+.img5
+{
+    z-index: 4;
+    top: 60px;
+    left: 50px;
+}
+.img6
+{
+    z-index: 5;
+	top: 150px;
+	left: 145px;
+}
+.img7
+{
+    z-index: 6;
+	top: 135px;
+	left: 140px;
+}
+.img8 {
+	z-index: 7;
+	top: 290px;
+	left: 120px;
+}
+

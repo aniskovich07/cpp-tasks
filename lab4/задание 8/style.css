@@ -1,0 +1,19 @@
+button
+{
+    border-radius: 0.5em;
+	background-color: #CCCCCC;
+	padding: 0.5em 1.4em;
+	border: none;
+}
+button:hover
+{
+    box-shadow: 1em 1em 1em grey;
+}
+.b2
+{
+    font-size: 20px;
+}
+.b3
+{
+  font-size: 30px;  
+}
